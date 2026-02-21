@@ -1,2 +1,18 @@
-# packet-sniffer
-Minimal network traffic monitor for educational purposes. Demonstrates raw socket usage and packet parsing fundamentals.
+# Packet Sniffer
+
+Минималистичный монитор сетевого трафика для учебных целей.
+
+## О проекте
+
+Проект демонстрирует:
+- Использование raw-сокетов
+- Разбор Ethernet-фреймов
+- Базовую работу с сетевыми протоколами
+
+Проект не предназначен для перехвата или анализа личных данных.
+Использовать только в изолированной лабораторной среде.
+
+## Запуск
+
+```bash
+sudo python3 main.py
